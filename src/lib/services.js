@@ -2,7 +2,7 @@ import supabase from './supabase';
 
 // https://supabase.com/docs/reference/javascript/auth-user
 // Inside a browser context, user() will return the user data, if there is a logged in user.
-export function getUserData() {
+export function getUser() {
 	return supabase.auth.user();
 }
 
