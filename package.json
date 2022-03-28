@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "env-cmd svelte-kit dev",
-		"build": "env-cmd svelte-kit build && ./move.sh",
+		"build": "env-cmd svelte-kit build && ./copy.sh",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
 		"prepare": "svelte-kit sync",
