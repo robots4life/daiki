@@ -1,22 +1,23 @@
-<!-- <script context="module">
+<script context="module">
 	// export const prerender = false;
-	// export const hydrate = false;
+	export const hydrate = false;
 
-	export async function load() {
-		const url = 'https://jsonplaceholder.typicode.com/posts';
-		const response = await fetch(url);
+	// export async function load() {
+	// 	const url = 'https://jsonplaceholder.typicode.com/posts';
+	// 	const response = await fetch(url);
 
-		const data = await response.json();
-		console.log(data);
+	// 	const data = await response.json();
+	// 	console.log(data);
 
-		return {
-			status: response.status,
-			props: {
-				posts: data
-			}
-		};
-	}
-</script> -->
+	// 	return {
+	// 		status: response.status,
+	// 		props: {
+	// 			posts: data
+	// 		}
+	// 	};
+	// }
+</script>
+
 <script>
 	let count = 0;
 
