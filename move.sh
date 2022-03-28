@@ -4,13 +4,19 @@
 # chmod +x move.sh
 # ./move.sh
 
-build_htdocs="/shared/httpd/static/htdocs/"
+static_htdocs="/shared/httpd/static/htdocs/"
 
-build_path="/shared/httpd/static/"
+static_path="/shared/httpd/static/"
 
-source_path="/shared/httpd/daiki/build/"
+source_path=$(pwd)
 
-cd $build_path
+echo $source_path
+
+source_build_path=$source_path"/build/"
+
+echo $source_build_path
+
+cd $static_path
 
 pwd
 
@@ -20,4 +26,6 @@ mkdir htdocs
 
 cd htdocs
 
-rsync -a "$source_path" . || exit 1
+pwd
+
+rsync -a "$source_build_path" . || exit 1
