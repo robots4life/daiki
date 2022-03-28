@@ -1,6 +1,6 @@
 <script context="module">
 	// export const prerender = false;
-	export const hydrate = false;
+	// export const hydrate = false;
 
 	export async function load() {
 		const url = 'https://jsonplaceholder.typicode.com/posts';
