@@ -16,6 +16,10 @@ const config = {
 		// adapter: adapter({ out: 'build' }),
 		// Adapter Node end
 
+		// https://github.com/sveltejs/kit/issues/962
+		// inline all stylesheets smaller than 1kb
+		inlineStyleThreshold: 10240,
+
 		// Adapter Static
 		// https://github.com/sveltejs/kit/tree/master/packages/adapter-static
 		adapter: adapter({
