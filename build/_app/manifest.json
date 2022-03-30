@@ -1,0 +1,78 @@
+{
+  ".svelte-kit/runtime/client/start.js": {
+    "file": "start-bb5e8ef1.js",
+    "src": ".svelte-kit/runtime/client/start.js",
+    "isEntry": true,
+    "imports": [
+      "_vendor-fb0a489f.js"
+    ],
+    "dynamicImports": [
+      "src/routes/__layout.svelte",
+      ".svelte-kit/runtime/components/error.svelte",
+      "src/routes/index.svelte",
+      "src/routes/contact/index.svelte",
+      "src/routes/about/index.svelte",
+      "src/routes/work/index.svelte"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "pages/__layout.svelte-2c9fd990.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fb0a489f.js"
+    ],
+    "css": [
+      "assets/pages/__layout.svelte-01120fe0.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "error.svelte-15752e64.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fb0a489f.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "pages/index.svelte-e24d8d44.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fb0a489f.js"
+    ]
+  },
+  "src/routes/contact/index.svelte": {
+    "file": "pages/contact/index.svelte-b4d8aa2a.js",
+    "src": "src/routes/contact/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fb0a489f.js"
+    ]
+  },
+  "src/routes/about/index.svelte": {
+    "file": "pages/about/index.svelte-fbfe2c05.js",
+    "src": "src/routes/about/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fb0a489f.js"
+    ]
+  },
+  "src/routes/work/index.svelte": {
+    "file": "pages/work/index.svelte-516451d0.js",
+    "src": "src/routes/work/index.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-fb0a489f.js"
+    ]
+  },
+  "_vendor-fb0a489f.js": {
+    "file": "chunks/vendor-fb0a489f.js"
+  }
+}
