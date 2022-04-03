@@ -7,11 +7,3 @@
 	<Navbar />
 	<slot />
 </main>
-
-<style>
-	.container {
-		margin: 0;
-		padding: 0;
-		border: 4px solid blue;
-	}
-</style>

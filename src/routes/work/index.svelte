@@ -1,9 +1,14 @@
 <script>
-	let count = 0;
+	import { counter } from '$lib/counterStore.js';
+	import Incrementer from '$lib/Incrementer.svelte';
+	import Decrementer from '$lib/Decrementer.svelte';
+	import Resetter from '$lib/Resetter.svelte';
 
-	function increaseCount() {
-		count++;
-	}
+	let countValue;
+
+	counter.subscribe((value) => {
+		countValue = value;
+	});
 </script>
 
 <svelte:head>
@@ -12,5 +17,8 @@
 
 <h1>Work</h1>
 
-<p>Counter : {count}</p>
-<button on:click="{increaseCount}">Increase Count</button>
+<div style="margin-top:4rem;"></div>
+<p>Counter : {countValue}</p>
+<Incrementer />
+<Decrementer />
+<Resetter />
