@@ -7,3 +7,7 @@
 	<Navbar />
 	<slot />
 </main>
+
+<style>
+	/* your styles go here */
+</style>
